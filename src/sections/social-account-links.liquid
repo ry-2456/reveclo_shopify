@@ -1,0 +1,33 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+{%- endstyle -%}
+
+<div>
+  <div>
+    <a href="">
+      <img src="https://cdn.shopify.com/s/files/1/0621/4362/7441/files/instagram_account_gray.png?v=1657403886" alt="">
+    </a>
+  </div>
+  <div>
+    <a href="">
+      <img src="https://cdn.shopify.com/s/files/1/0621/4362/7441/files/line_account_gray.png?v=1657403886" alt="">
+    </a>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "ソーシャルアカウントリンクブロック",
+  "class": "section",
+  "settings": [
+  ],
+  "presets": [
+    {
+    "name": "ソーシャルアカウントリンク",
+    "blocks": []
+    }
+  ]
+
+}
+{% endschema %}
