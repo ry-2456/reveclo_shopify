@@ -1,0 +1,28 @@
+.social-account-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 749px) {
+  .link:first-child {
+    margin-bottom: 2rem;
+  }
+}
+
+.link img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .social-account-links {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+

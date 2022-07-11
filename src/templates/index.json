@@ -104,12 +104,18 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "165757471940a315a0": {
+      "type": "social-account-links",
+      "settings": {
+      }
     }
   },
   "order": [
     "slideshow",
     "featured-collection-1",
     "165697145745b5062a",
-    "1656971659aa019dcd"
+    "1656971659aa019dcd",
+    "165757471940a315a0"
   ]
 }
