@@ -1,0 +1,48 @@
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'section-social-account-links.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+{%- endstyle -%}
+
+<slider-component class="page-width page-width-desktop social-account-links">
+  {%- for block in section.blocks -%}
+    <div class="link">
+      <a href="{{ block.settings.link }}">
+        <img src="{{ block.settings.image | image_url }}" alt="">
+      </a>
+    </div>
+  {%- endfor -%}
+</slider-component>
+
+{% schema %}
+{
+  "name": "ソーシャルアカウントリンクセクション",
+  "class": "section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "social-account-link",
+      "name": "画像リンク",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "画像"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "リンク"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+    "name": "ソーシャルアカウントリンク",
+    "blocks": []
+    }
+  ]
+}
+{% endschema %}

@@ -134,29 +134,21 @@
           "link-list": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "会員メニュー",
+              "menu": "link-list"
             }
           },
-          "text": {
-            "type": "text",
+          "400da1ec-24d2-4b0a-bdaf-b86de28860c3": {
+            "type": "link_list",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
-          },
-          "image": {
-            "type": "image",
-            "settings": {
-              "image_width": 95,
-              "alignment": "right"
+              "heading": "規約\/法務\/各種ポリシー",
+              "menu": "link-list-1"
             }
           }
         },
         "block_order": [
           "link-list",
-          "text",
-          "image"
+          "400da1ec-24d2-4b0a-bdaf-b86de28860c3"
         ],
         "settings": {
           "color_scheme": "accent-1",
@@ -184,7 +176,10 @@
           "color_scheme": "background-1"
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {

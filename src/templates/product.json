@@ -78,57 +78,6 @@
         "padding_bottom": 12
       }
     },
-    "collapsible-content": {
-      "type": "collapsible-content",
-      "blocks": {
-        "row-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "List a frequently asked question",
-            "icon": "bottle",
-            "row_content": "<p>Then provide an answer that will help your customer make an informed purchase.<\/p>",
-            "page": ""
-          }
-        },
-        "row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "List another frequently asked question",
-            "icon": "box",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "List another frequently asked question",
-            "icon": "apple",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "row-0",
-        "row-1",
-        "row-2"
-      ],
-      "settings": {
-        "caption": "Introduce your content",
-        "heading": "Answer your customers' common questions",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "section",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-1",
-        "open_first_collapsible_row": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -149,7 +98,6 @@
   },
   "order": [
     "main",
-    "collapsible-content",
     "product-recommendations"
   ]
 }
