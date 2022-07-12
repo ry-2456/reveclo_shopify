@@ -107,6 +107,26 @@
     },
     "165757471940a315a0": {
       "type": "social-account-links",
+      "blocks": {
+        "c0f5a255-2652-4cc7-b398-2da1f7e916d0": {
+          "type": "social-account-link",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/line_account_gray.png",
+            "link": "https:\/\/line.me\/ja\/"
+          }
+        },
+        "5614e749-a3f6-4865-9f79-0721f290acca": {
+          "type": "social-account-link",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instagram_account_gray.png",
+            "link": "https:\/\/www.instagram.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "c0f5a255-2652-4cc7-b398-2da1f7e916d0",
+        "5614e749-a3f6-4865-9f79-0721f290acca"
+      ],
       "settings": {
       }
     }

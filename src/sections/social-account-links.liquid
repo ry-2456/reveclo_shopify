@@ -5,23 +5,38 @@
 {%- endstyle -%}
 
 <slider-component class="page-width page-width-desktop social-account-links">
-  <div class="link">
-    <a href="https://google.co.jp">
-      <img src="https://cdn.shopify.com/s/files/1/0621/4362/7441/files/instagram_account_gray.png?v=1657403886" alt="">
-    </a>
-  </div>
-  <div class="link">
-    <a href="https://yahoo.co.jp">
-      <img src="https://cdn.shopify.com/s/files/1/0621/4362/7441/files/line_account_gray.png?v=1657403886" alt="">
-    </a>
-  </div>
+  {%- for block in section.blocks -%}
+    <div class="link">
+      <a href="{{ block.settings.link }}">
+        <img src="{{ block.settings.image | image_url }}" alt="">
+      </a>
+    </div>
+  {%- endfor -%}
 </slider-component>
 
 {% schema %}
 {
-  "name": "ソーシャルアカウントリンクブロック",
+  "name": "ソーシャルアカウントリンクセクション",
   "class": "section",
-  "settings": [
+  "settings": [],
+  "blocks": [
+    {
+      "type": "social-account-link",
+      "name": "画像リンク",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "画像"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "リンク"
+        }
+      ]
+    }
   ],
   "presets": [
     {
