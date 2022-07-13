@@ -1,36 +1,49 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "16577112095623f121": {
+      "type": "custom_slideshow",
       "blocks": {
-        "slide": {
+        "16577112095c2c3bff-0": {
           "type": "slide",
           "settings": {
-            "heading": "Highlight a bold statement about your brand",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 20,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "image": "shopify:\/\/shop_images\/slid1.png",
+            "image_overlay_opacity": 0
+          }
+        },
+        "16577112095c2c3bff-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide2_651dcf75-fc39-41e3-a4ac-301060f1a6de.png",
+            "image_overlay_opacity": 0
+          }
+        },
+        "c960610a-8a5e-4896-a600-fc2377391c0d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide3.png",
+            "image_overlay_opacity": 0
+          }
+        },
+        "d6ba200f-417e-4c41-9b24-5a45b4674b90": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide4.png",
+            "image_overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide"
+        "16577112095c2c3bff-0",
+        "16577112095c2c3bff-1",
+        "c960610a-8a5e-4896-a600-fc2377391c0d",
+        "d6ba200f-417e-4c41-9b24-5a45b4674b90"
       ],
       "settings": {
         "layout": "grid",
-        "slide_height": "small",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": false,
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
         "accessibility_info": "Slideshow about our brand"
       }
     },
@@ -132,7 +145,7 @@
     }
   },
   "order": [
-    "slideshow",
+    "16577112095623f121",
     "featured-collection-1",
     "165697145745b5062a",
     "1656971659aa019dcd",
