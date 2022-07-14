@@ -1,0 +1,4 @@
+/* スライドショーの1爪のドットが上にずれるのを防ぐ*/
+.slider-counter__link.slider-counter__link--dots {
+  margin-bottom: 0 !important;
+}
