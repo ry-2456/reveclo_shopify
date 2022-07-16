@@ -180,6 +180,13 @@
       ],
       "settings": {
       }
+    },
+    "1657925866520ddf2a": {
+      "type": "custom-menu",
+      "settings": {
+        "menu": "link-list-2",
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -188,6 +195,7 @@
     "featured-collection-1",
     "165697145745b5062a",
     "1656971659aa019dcd",
-    "165757471940a315a0"
+    "165757471940a315a0",
+    "1657925866520ddf2a"
   ]
 }
