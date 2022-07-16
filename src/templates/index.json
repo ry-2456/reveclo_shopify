@@ -1,18 +1,5 @@
 {
   "sections": {
-    "1657749982a379ea92": {
-      "type": "custom_header",
-      "settings": {
-        "color_scheme": "background-1",
-        "logo_width": 100,
-        "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
-        "show_line_separator": true,
-        "enable_sticky_header": true,
-        "margin_bottom": 0
-      }
-    },
     "1657837611e32b76fd": {
       "type": "custom-slideshow",
       "blocks": {
@@ -85,6 +72,40 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "1657925866520ddf2a": {
+      "type": "custom-menu",
+      "settings": {
+        "menu": "link-list-2",
+        "margin_bottom": 0
+      }
+    },
+    "165697145745b5062a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NEW ARRIVAL",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "新着",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured-collection-1": {
       "type": "featured-collection",
       "settings": {
@@ -110,33 +131,6 @@
         "swipe_on_mobile": false,
         "padding_top": 32,
         "padding_bottom": 32
-      }
-    },
-    "165697145745b5062a": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "NEW ARRIVAL",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "新着",
-        "products_to_show": 6,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "1656971659aa019dcd": {
@@ -180,22 +174,14 @@
       ],
       "settings": {
       }
-    },
-    "1657925866520ddf2a": {
-      "type": "custom-menu",
-      "settings": {
-        "menu": "link-list-2",
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
-    "1657749982a379ea92",
     "1657837611e32b76fd",
-    "featured-collection-1",
+    "1657925866520ddf2a",
     "165697145745b5062a",
+    "featured-collection-1",
     "1656971659aa019dcd",
-    "165757471940a315a0",
-    "1657925866520ddf2a"
+    "165757471940a315a0"
   ]
 }
