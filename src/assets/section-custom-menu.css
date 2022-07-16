@@ -2,3 +2,30 @@
 .link.custom-menu-link:first-child {
   margin-bottom: 0;
 }
+
+.custom-menu-link {
+  border: 2px solid black;
+  border-radius: 1rem;
+  justify-content: center;
+}
+
+.custom-menu-links {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  padding: 1.5rem 0rem;
+}
+
+@media screen and (min-width: 750px) {
+  .custom-menu-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .custom-menu-links {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 10rem;
+  }
+}
+

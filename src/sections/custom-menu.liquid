@@ -89,11 +89,13 @@
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
 
 <div class="page-width">
+  <div class="custom-menu-links">
     {%- for link in section.settings.menu.links -%}
       <a href="{{ link.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset custom-menu-link">
         {{ link.title | escape }}
       </a>
     {%- endfor -%}
+  </div>
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
