@@ -1,0 +1,4 @@
+/* リンク一つ目のmb削除 */
+.link.custom-menu-link:first-child {
+  margin-bottom: 0;
+}

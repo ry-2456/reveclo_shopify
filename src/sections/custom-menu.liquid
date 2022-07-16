@@ -18,6 +18,8 @@
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
+{{ 'section-custom-menu.css' | asset_url | stylesheet_tag }}
+
 <style>
   header-drawer {
     justify-self: start;
@@ -86,13 +88,12 @@
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
 
-<div>
+<div class="page-width">
     {%- for link in section.settings.menu.links -%}
-          <a href="{{ link.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
-            {{ link.title | escape }}
-          </a>
+      <a href="{{ link.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset custom-menu-link">
+        {{ link.title | escape }}
+      </a>
     {%- endfor -%}
-  </ul>
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
