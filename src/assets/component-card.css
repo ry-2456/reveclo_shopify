@@ -244,7 +244,7 @@
 }
 
 .card--standard>.card__content .card__information {
-    padding-left: 0;
+    padding-left: 20px;
     padding-right: 0;
 }
 
