@@ -88,6 +88,11 @@
                   <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
                 {%- endif -%}
               </div>
+              <div>
+                <p class="article-read-more">
+                  ＞続きを読む
+                </p>
+              </div>
             {%- endif -%}
           </div>
           {%- if show_badge -%}
@@ -126,6 +131,11 @@
               {%- if article.comments_count > 0 and blog.comments_enabled? -%}
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
               {%- endif -%}
+            </div>
+            <div>
+              <p class="article-read-more">
+                ＞続きを読む
+              </p>
             </div>
           {%- endif -%}
         </div>
