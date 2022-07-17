@@ -145,3 +145,12 @@ p.article-card__excerpt.rte-width {
     font-size: 14px;
     text-align: left;
 }
+
+
+/* 「＞続きを読む」の文字 */
+.article-read-more {
+  margin-top: -1.8rem;
+  color: #0066c0;
+  font-size: 14px;
+  text-align: left;
+}
